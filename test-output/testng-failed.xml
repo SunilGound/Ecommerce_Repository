@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.Search_Functionality">
+        <methods>
+          <include name="closeUp"/>
+          <include name="Verify_without_searching_any_Product_Name"/>
+          <include name="Verify_searching_with_a_non_existing_Product_Name"/>
+          <include name="setup"/>
+          <include name="Verify_searching_with_an_existing_Product_Name"/>
+        </methods>
+      </class> <!-- testcases.Search_Functionality -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
